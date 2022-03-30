@@ -1,0 +1,96 @@
+[
+    {
+        "Xhamster":{
+            "Error": "Status-Code",
+            "name": "XHamester",
+            "main": "https://xhamster.com",
+            "user": "https://xhamster.com/users/{}",
+            "user2": "https://xhamster.com/users/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "PornHub":{
+            "Error": "Status-Code",
+            "name": "PornHub",
+            "main": "https://pornhub.com",
+            "user": "https://pornhub.com/users/{}",
+            "user2": "https://pornhub.com/users/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "YouPorn":{
+            "Error": "Status-Code",
+            "name": "YouPorn",
+            "main": "https://youporn.com",
+            "user": "https://youporn.com/uservids/{}",
+            "user2": "https://youporn.com/uservids/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "XVideos":{
+            "Error": "Status-Code",
+            "name": "XVideos",
+            "main": "https://xvideos.com/",
+            "user": "https://xvideos.com/profiles/{}",
+            "user2": "https://xvideos.com/profiles/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "ChaturBate":{
+            "Error": "Status-Code",
+            "name": "ChaturBate",
+            "main": "https://chaturbate.com",
+            "user": "https://chaturbate.com/{}",
+            "user2": "https://chaturbate.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "BongaCams":{
+            "Error": "Status-Code",
+            "name": "BongaCams",
+            "main": "https://pt.bongacams.com",
+            "user": "https://pt.bongacams.com/profile/{}",
+            "user2": "https://pt.bongacams.com/profile/{}",
+            "exception": [" "],
+            "Scrapable": "False"       
+        },
+
+        "Tinder":{
+            "Error": "Message",
+            "text": "Looking for someone?",
+            "name": "Tinder",
+            "main": "tinder.com",
+            "user": "https://tinder.com/@{}",
+            "user2": "https://tinder.com/@{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "LiveJasmin":{
+            "Error": "Response-Url",
+            "response": "https://www.livejasmin.com/en/girls/",
+            "name": "LiveJasmin(Girls)",
+            "main": "livejasmin.com",
+            "user": "https://www.livejasmin.com/en/girls/{}",
+            "user2": "https://www.livejasmin.com/en/girls/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "LiveJasmin2":{
+            "Error": "Response-Url",
+            "response": "https://www.livejasmin.com/en/girls/",
+            "name": "LiveJasmin(BOYS)",
+            "main": "livejasmin.com",
+            "user": "https://www.livejasmin.com/en/boys/{}",
+            "user2": "https://www.livejasmin.com/en/boys/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        }
+    }
+]

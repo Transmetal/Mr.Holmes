@@ -1,0 +1,27 @@
+intext:({})
+intext:({})filetype:txt
+intext:({})filetype:csv
+intext:({})filetype:pdf
+intext:({})filetype:doc
+intext:({})filetype:docx
+intext:({})filetype:log
+intext:{}(Email OR E-mail OR email OR e-mail)
+intext:{}(Email OR E-mail OR email OR e-mail)filetype:txt
+intext:{}(Email OR E-mail OR email OR e-mail)filetype:csv
+intext:{}(Email OR E-mail OR email OR e-mail)filetype:pdf
+intext:{}(Email OR E-mail OR email OR e-mail)filetype:doc
+intext:{}(Email OR E-mail OR email OR e-mail)filetype:docx
+intext:{}(Email OR E-mail OR email OR e-mail)filetype:log
+intext:{}(Password OR password OR PASSWORD)
+intext:{}(Password OR password OR PASSWORD)filetype:txt
+intext:{}(Password OR password OR PASSWORD)filetype:csv
+intext:{}(Password OR password OR PASSWORD)filetype:pdf
+intext:{}(Password OR password OR PASSWORD)filetype:doc
+intext:{}(Password OR password OR PASSWORD)filetype:docx
+intext:{}(Password OR password OR PASSWORD)filetype:log
+intitle:({})filetype:txt
+intitle:({})filetype:csv
+intitle:({})filetype:pdf
+intitle:({})filetype:doc
+intitle:({})filetype:docx
+intitle:({})filetype:log

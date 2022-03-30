@@ -1,0 +1,1486 @@
+[
+    {
+        "Instagram":{
+            "Error": "Status-Code",
+            "name": "Instagram",
+            "main": "instagram.com",
+            "user": "https://instagram.com/{}",
+            "user2": "https://www.picuki.com/profile/{}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://www.picuki.com/profile/{}"
+        },
+        
+        "GitHub":{
+            "Error": "Status-Code",
+            "name": "GitHub",
+            "main": "github.com",
+            "user": "https://github.com/{}",
+            "user2": "https://github.com/{}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://api.github.com/users/{}"
+        },
+        
+        "Facebook":{
+            "Error": "Status-Code",
+            "name": "Facebook",
+            "main": "facebook.com",
+            "user": "https://facebook.com/{}",
+            "user2": "https://facebook.com/{}",
+            "exception": [".","_"],
+            "Scrapable": "False"       
+        },
+         
+        "Disqus":{
+            "Error": "Status-Code",
+            "name": "Disqus",
+            "main": "disqus.com",
+            "user": "https://disqus.com/{}",
+            "user2": "https://disqus.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Pinterest":{
+            "Error": "Status-Code",
+            "name": "Pinterest",
+            "main": "pinterest.com",
+            "user": "https://pinterest.com/{}",
+            "user2": "https://pinterest.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Imgur":{
+            "Error": "Status-Code",
+            "name": "Imgur",
+            "main": "imgur.com",
+            "user": "https://imgur.com/user/{}",
+            "user2": "https://api.imgur.com/account/v1/accounts/{}?client_id=546c25a59c58ad7",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://api.imgur.com/account/v1/accounts/{}?client_id=546c25a59c58ad7"
+        },
+        
+        "MySpace":{
+            "Error": "Status-Code",
+            "name": "MySpace",
+            "main": "myspace.com",
+            "user": "https://myspace.com/{}",
+            "user2": "https://myspace.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Tellonym":{
+            "Error": "Status-Code",
+            "name": "Tellonym",
+            "main": "tellonym.me",
+            "user": "https://tellonym.me/{}",
+            "user2": "https://tellonym.me/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Spotify":{
+            "Error": "Message",
+            "text": "Spotify- Web Player",
+            "name": "Spotify",
+            "main": "spotify.com",
+            "user": "https://open.spotify.com/user/{}",
+            "user2": "https://open.spotify.com/user/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Twitch":{
+            "Error": "Status-Code",
+            "name": "Twitch",
+            "main": "twitch.tv",
+            "user": "https://twitch.tv/{}",
+            "user2": "https://m.twitch.tv/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Wattpad":{
+            "Error": "Status-Code",
+            "name": "Wattpad",
+            "main": "wattpad.com",
+            "user": "https://www.wattpad.com/user/{}",
+            "user2": "https://www.wattpad.com/user/{}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://www.wattpad.com/api/v3/users/{}/"
+        },
+        
+        "FortniteTracker":{
+            "Error": "Status-Code",
+            "name": "FortniteTracker",
+            "main": "fortnitetracker.com",
+            "user": "https://fortnitetracker.com/profile/all/{}",
+            "user2": "https://fortnitetracker.com/profile/all/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "HackTheBox":{
+            "Error": "Status-Code",
+            "name": "HackTheBox",
+            "main": "hackthebox.eu",
+            "user": "https://forum.hackthebox.eu/profile/{}",
+            "user2": "https://forum.hackthebox.eu/profile/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "MyAnimeList":{
+            "Error": "Status-Code",
+            "name": "MyAnimeList",
+            "main": "myanimelist.net",
+            "user": "https://myanimelist.net/profile/{}",
+            "user2": "https://myanimelist.net/profile/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Oracle":{
+            "Error": "Status-Code",
+            "name": "Oracle",
+            "main": "community.oracle.com",
+            "user": "https://community.oracle.com/people/{}",
+            "user2": "https://community.oracle.com/people/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "SoundCloud":{
+            "Error": "Status-Code",
+            "name": "SoundCloud",
+            "main": "soundcloud.com",
+            "user": "https://soundcloud.com/{}",
+            "user2": "https://soundcloud.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Vimeo":{
+            "Error": "Status-Code",
+            "name": "Vimeo",
+            "main": "vimeo.com",
+            "user": "https://vimeo.com/{}",
+            "user2": "https://vimeo.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Youpic":{
+            "Error": "Status-Code",
+            "name": "Youpic",
+            "main": "youpic.com",
+            "user": "https://youpic.com/photographer/{}/",
+            "user2": "https://youpic.com/photographer/{}/",
+            "exception": ["/"," "],
+            "Scrapable": "False"
+        },
+        
+        "Gfycat":{
+            "Error": "Status-Code",
+            "name": "Gfycat",
+            "main": "gfycat.com",
+            "user": "https://gfycat.com/@{}",
+            "user2": "https://gfycat.com/@{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Flickr":{
+            "Error": "Status-Code",
+            "name": "Flickr",
+            "main": "flickr.com",
+            "user": "https://www.flickr.com/photos/{}",
+            "user2": "https://www.flickr.com/photos/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "DeviantArt":{
+            "Error": "Status-Code",
+            "name": "DeviantArt",
+            "main": "deviantart.com",
+            "user": "https://www.deviantart.com/{}",
+            "user2": "https://www.deviantart.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "VKontakte":{
+            "Error": "Status-Code",
+            "name": "VKontakte",
+            "main" : "vk.com",
+            "user" : "https://vk.com/{}",
+            "user2" : "https://vk.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "9GAG":{
+            "Error": "Status-Code",
+            "name": "9GAG",
+            "main": "9gag.com",
+            "user": "https://9gag.com/u/{}",
+            "user2": "https://9gag.com/u/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Daylimotion":{
+            "Error": "Status-Code",
+            "name": "Dailymotion",
+            "main": "dailymotion.com",
+            "user": "https://www.dailymotion.com/{}",
+            "user2": "https://www.dailymotion.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "Tumblr":{
+            "Error": "Status-Code",
+            "name": "Tumblr",
+            "main": "tumblr.com",
+            "user": "https://{}.tumblr.com/",
+            "user2": "https://{}.tumblr.com/",
+            "exception": [" ","."],
+            "Scrapable": "False"
+        },
+        
+        "SourceForge":{
+            "Error": "Status-Code",
+            "name": "SourceForge",
+            "main": "sourceforge.net/",
+            "user": "https://sourceforge.net/u/{}",
+            "user2": "https://sourceforge.net/u/{}",
+            "exception": " ",
+            "Scrapable": "False"
+        },
+        
+        "PyPi":{
+            "Error": "Status-Code",
+            "name": "PyPi",
+            "main": "pypi.org",
+            "user": "https://pypi.org/user/{}",
+            "user2": "https://pypi.org/user/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "GooglePlay":{
+            "Error": "Status-Code",
+            "name": "GooglePlay",
+            "main": "play.google.com/store",
+            "user": "https://play.google.com/store/apps/developer?id={}",
+            "user2": "https://play.google.com/store/apps/developer?id={}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "About.Me":{
+            "Error": "Status-Code",
+            "name": "About.Me",
+            "main": "about.me",
+            "user": "https://about.me/{}",
+            "user2": "https://about.me/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "PokemonShowdown":{
+            "Error": "Status-Code",
+            "name": "Pokemon Showdown",
+            "main": "pokemonshowdown.com",
+            "user": "https://pokemonshowdown.com/users/{}",
+            "user2": "https://pokemonshowdown.com/users/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "LolProfiles":{
+            "Error": "Message",
+            "text": "We could not find any results, please try again later or check your input.",
+            "name": "LolProfiles",
+            "main": "lolprofile.net",
+            "user": "https://lolprofile.net/search/world/{}",
+            "user2": "https://lolprofile.net/search/world/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Nitter":{
+            "Error": "Message",
+            "text": "not found",
+            "name": "Nitter",
+            "main": "nitter.domain.glass",
+            "user": "https://nitter.domain.glass/{}",
+            "user2": "https://nitter.domain.glass/{}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://nitter.domain.glass/{}"
+        },
+
+        "PsnProfiles":{
+            "Error": "Message",
+            "text": "Update User",
+            "name": "PsnProfiles",
+            "main": "psnprofiles.com",
+            "user": "https://psnprofiles.com/{}",
+            "user2": "https://psnprofiles.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+        
+        "7Cups":{
+            "Error": "Status-Code",
+            "name": "7Cups",
+            "main": "7cups.com",
+            "user": "https://www.7cups.com/@",
+            "user2": "https://www.7cups.com/@",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "AskFM":{
+            "Error": "Message",
+            "text": "Well, apparently not anymore.",
+            "name": "AskFM",
+            "main": "ask.fm",
+            "user": "https://ask.fm/{}",
+            "user2": "https://ask.fm/{}",
+            "exception": [" ","."],
+            "Scrapable": "False"
+        },
+        
+        "TwitchTracker":{
+            "Error": "Status-Code",
+            "name": "TwitchTracker",
+            "main": "twitchtracker.com",
+            "user": "https://twitchtracker.com/{}",
+            "user2": "https://twitchtracker.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "LinkTree":{
+            "Error": "Status-Code",
+            "name": "LinkTree",
+            "main": "linktr.ee",
+            "user": "https://linktr.ee/{}",
+            "user2": "https://linktr.ee/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Patreon":{
+            "Error": "Status-Code",
+            "name": "Patreon",
+            "main": "patreon.com",
+            "user": "https://patreon.com/{}",
+            "user2": "https://patreon.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Flipboard":{
+            "Error": "Status-Code",
+            "name": "Flipboard",
+            "main": "flipboard.com",
+            "user": "https://flipboard.com/@{}",
+            "user2": "https://flipboard.com/@{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "BuyMeACoffee":{
+            "Error": "Status-Code",
+            "name": "BuyMeACoffee",
+            "main": "buymeacoffee.com",
+            "user": "https://www.buymeacoffee.com/{}",
+            "user2": "https://www.buymeacoffee.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Interpals":{
+            "Error": "Message",
+            "text": "The requested user does not exist or is inactive",
+            "name": "Interpals",
+            "main": "interpals.net",
+            "user": "https://www.interpals.net/{}",
+            "user2": "https://www.interpals.net/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "TryHackMe":{
+            "Error": "Status-Code",
+            "name": "TryHackMe",
+            "main": "tryhackme.com",
+            "user": "https://tryhackme.com/p/{}",
+            "user2": "https://tryhackme.com/p/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "SteamCommunity":{
+            "Error": "Message",
+            "text": "The specified profile could not be found.",
+            "name": "SteamCommunity",
+            "main": "steamcommunity.com",
+            "user": "https://steamcommunity.com/id/{}",
+            "user2": "https://steamcommunity.com/id/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "BitcoinForum":{
+            "Error": "Message",
+            "text": "The user whose profile you are trying to view does not exist.",
+            "name": "BitcoinForum",
+            "main": "bitcoinforum.com",
+            "user": "https://bitcoinforum.com/profile/{}",
+            "user2": "https://bitcoinforum.com/profile/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "BitBucket":{
+            "Error": "Status-Code",
+            "name": "BitBucket",
+            "main": "bitbucket.org",
+            "user": "https://bitbucket.org/{}/",
+            "user2": "https://bitbucket.org/{}/",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "ClubHouse":{
+            "Error": "Status-Code",
+            "name": "ClubHouse",
+            "main": "joinclubhouse.com",
+            "user": "https://joinclubhouse.com/@{}",
+            "user2": "https://joinclubhouse.com/@{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Bandcamp":{
+            "Error": "Status-Code",
+            "name": "Bandcamp",
+            "main": "bandcamp.com",
+            "user": "https://www.bandcamp.com/{}",
+            "user2": "https://www.bandcamp.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Bookcrossing":{
+            "Error": "Status-Code",
+            "name": "Bookcrossing",
+            "main": "bookcrossing.com",
+            "user": "https://www.bookcrossing.com/mybookshelf/{}/",
+            "user2": "https://www.bookcrossing.com/mybookshelf/{}/",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Chess":{
+            "Error": "Message",
+            "text": "The page you are looking for doesn’t exist",
+            "name": "Chess",
+            "main": "chess.com",
+            "user": "https://www.chess.com/member/{}",
+            "user2": "https://www.chess.com/member/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Fandom":{
+            "Error": "Status-Code",
+            "name": "Fandom",
+            "main": "fandom.com",
+            "user": "https://www.fandom.com/u/{}",
+            "user2": "https://www.fandom.com/u/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Freesound":{
+            "Error": "Status-Code",
+            "name": "Freesound",
+            "main": "freesound.org",
+            "user": "https://freesound.org/people/{}",
+            "user2": "https://freesound.org/people/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Pubg":{
+            "Error": "Message",
+            "text": "The player is not registered at OP.GG. Please check your spelling and search again.",
+            "name": "Pubg",
+            "main": "pubg.op.gg",
+            "user": "https://pubg.op.gg/user/{}",
+            "user2": "https://pubg.op.gg/user/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Euw":{
+            "Error": "Message",
+            "text": "This summoner is not registered at OP.GG. Please check spelling.",
+            "name": "Euw",
+            "main": "euw.op.gg",
+            "user": "https://euw.op.gg/summoner/userName={}",
+            "user2": "https://euw.op.gg/summoner/userName={}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Quora":{
+            "Error": "Status-Code",
+            "name": "Quora",
+            "main": "quora.com",
+            "user": "https://www.quora.com/profile/{}",
+            "user2": "https://www.quora.com/profile/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Wikipedia":{
+            "Error": "Status-Code",
+            "name": "Wikipedia",
+            "main": "wikipedia.org",
+            "user": "https://wikipedia.org/wiki/User:{}",
+            "user2": "https://wikipedia.org/wiki/User:{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "AllMyLinks":{
+            "Error": "Status-Code",
+            "name": "AllMyLinks",
+            "main": "allmylinks.com",
+            "user": "https://allmylinks.com/{}",
+            "user2": "https://allmylinks.com/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Medium": {
+            "Error": "Status-Code",
+            "name": "Medium",
+            "main": "medium.com",
+            "user": "https://{}.medium.com",
+            "user2": "https://{}.medium.com",
+            "exception": [" ",".","_"],
+            "Scrapable": "False"
+        },
+
+        "SkillShare":{
+            "Error": "Status-Code",
+            "name": "SkillShare",
+            "main": "skillshare.com",
+            "user": "https://www.skillshare.com/user/{}",
+            "user2": "https://www.skillshare.com/user/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Pr0gramm":{
+            "Error": "Status-Code",
+            "text": "{error: notFound, code: 404, msg: Not Found}",
+            "name": "Pr0gramm",
+            "main": "pr0gramm.com",
+            "user": "https://pr0gramm.com/user/{}",
+            "user2": "https://pr0gramm.com/api/profile/info?name={}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://pr0gramm.com/api/profile/info?name={}"
+        },
+
+        "BinarySearch":{
+            "Error": "Message",
+            "text": "{}",
+            "name": "BinarySearch",
+            "main": "binarysearch.com",
+            "user": "https://binarysearch.com/@/{}",
+            "user2": "https://binarysearch.com/api/users/{}/profile",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://binarysearch.com/api/users/{}/profile"
+        },
+
+        "MixCloud":{
+            "Error": "Status-Code",
+            "name": "MixCloud",
+            "main": "mixcloud.com",
+            "user": "https://mixcloud.com/{}/",
+            "user2": "https://api.mixcloud.com/{}/",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://api.mixcloud.com/{}/"
+        },
+
+        "Archive.org":{
+            "Error": "Message",
+            "text": "cannot find account",
+            "name": "Archive.org",
+            "main": "archive.org",
+            "user": "https://archive.org/details/@{}",
+            "user2": "https://archive.org/details/@{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Blogger":{
+            "Error": "Status-Code",
+            "name": "Blogger",
+            "main": "blogspot.com",
+            "user": "https://{}.blogspot.com",
+            "user2": "https://{}.blogspot.com",
+            "exception": [" ",".","/"],
+            "Scrapable": "False"
+        },
+
+        "AudioJungle":{
+            "Error": "Status-Code",
+            "name": "AudioJungle",
+            "main": "audiojungle.net",
+            "user": "https://audiojungle.net/user/{}",
+            "user2": "https://audiojungle.net/user/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "DockerHub":{
+            "Error": "Message",
+            "text": "Not Found",
+            "name": "DockerHub",
+            "main": "hub.docker.com",
+            "user": "https://hub.docker.com/u/{}/",
+            "user2": "https://hub.docker.com/v2/users/{}/",
+            "exception": [" ",".","/","_"],
+            "Scrapable": "True",
+            "Scrapable_url": "https://hub.docker.com/v2/users/{}/"
+        },
+
+        "AminoApps":{
+            "Error": "Status-Code",
+            "name": "AminoApps",
+            "main": "aminoapps.com/",
+            "user": "https://aminoapps.com/u/{}",
+            "user2": "https://aminoapps.com/u/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "SublimeForum":{
+            "Error": "Status-Code",
+            "name": "SublimeForum",
+            "main": "sublimetext.com",
+            "user": "https://forum.sublimetext.com/u/{}",
+            "user2": "https://forum.sublimetext.com/u/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "Kik":{
+            "Error": "Message",
+            "text": "The page you requested was not found.",
+            "name": "Kik",
+            "main": "kik.me",
+            "user": "https://kik.me/{}",
+            "user2": "https://ws2.kik.com/user/{}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://ws2.kik.com/user/{}"
+        },
+
+        "Signal":{
+            "Error": "Status-Code",
+            "text": "Oops! That page doesn’t exist or is private.",
+            "name": "Signal",
+            "main": "community.signalusers.org",
+            "user": "https://community.signalusers.org/u/{}",
+            "user2": "https://community.signalusers.org/u/{}",
+            "exception": [" "],
+            "Scrapable": "False"
+        },
+
+        "GitLab":{
+            "Error": "Message",
+            "text": "[]",
+            "name": "GitLab",
+            "main": "gitlab.com",
+            "user": "https://gitlab.com/{}",
+            "user2": "https://gitlab.com/api/v4/users?username={}",
+            "exception": [" "],
+            "Scrapable": "True",
+            "Scrapable_url": "https://gitlab.com/api/v4/users?username={}"
+        },
+
+        "Wix":{
+            "Error": "Status-Code",
+            "name": "Wix",
+            "main": "wix.com",
+            "user": "https://{}.wix.com",
+            "user2": "https://{}.wix.com",
+            "exception": [" ",".","/"],
+            "Scrapable": "False"
+        },
+
+        "UnSplash":{
+            "Error": "Status-Code",
+            "name": "UnSplash",
+            "main": "unsplash.com",
+            "user": "https://unsplash.com/@{}",
+            "user2": "https://unsplash.com/@{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+        
+        "FacciaBuco":{
+            "Error":"Status-Code",
+            "name": "FacciaBuco",
+            "main": "facciabuco.com",
+            "user": "https://www.facciabuco.com/vaccheca/{}",
+            "user2": "https://www.facciabuco.com/vaccheca/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Behance":{
+            "Error": "Status-Code",
+            "name": "Behance",
+            "main": "behance.net",
+            "user": "https://www.behance.net/{}",
+            "user2": "https://www.behance.net/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Hackaday":{
+            "Error": "Status-Code",
+            "name": "Hackaday",
+            "main": "hackaday.io",
+            "user": "https://hackaday.io/{}",
+            "user2": "https://hackaday.io/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Ello":{
+            "Error": "Status-Code",
+            "name": "Ello",
+            "main": "ello.co",
+            "user": "https://ello.co/{}",
+            "user2": "https://ello.co/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Jimdo":{
+            "Error": "Status-Code",
+            "name": "Jimdo",
+            "main": "jimdosite.com",
+            "user": "https://{}.jimdosite.com",
+            "user2": "https://{}.jimdosite.com",
+            "exception": [" ",".","/"],
+            "Scrapable": "False"
+        },
+
+        "Keybase":{
+            "Error": "Status-Code",
+            "name": "Keybase",
+            "main": "keybase.io",
+            "user": "https://keybase.io/{}",
+            "user2": "https://keybase.io/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Slack":{
+            "Error": "Status-Code",
+            "name": "Slack",
+            "main": "slack.com",
+            "user": "https://{}.slack.com",
+            "user2": "https://{}.slack.com", 
+            "exception": [" ",".","/"],
+            "Scrapable": "False"
+        },
+
+        "Camfrog":{
+            "Error": "Message",
+            "text": "There is no user with this nickname.",
+            "name": "Camfrog",
+            "main": "camfrog.com",
+            "user": "https://profiles.camfrog.com/en/{}",
+            "user2": "https://profiles.camfrog.com/en/{}", 
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "YouNow":{
+            "Error": "Message",
+            "text": "No users found",
+            "name": "YouNow",
+            "main": "younow.com",
+            "user": "https://younow.com/{}",
+            "user2": "https://api.younow.com/php/api/broadcast/info/user={}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "ShitpostBot5000":{
+            "Error": "Status-Code",
+            "name": "ShitpostBot5000",
+            "main": "shitpostbot.com",
+            "user": "https://www.shitpostbot.com/user/{}",
+            "user2": "https://www.shitpostbot.com/user/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Smule":{
+            "Error": "Message",
+            "text": "Smule | Page Not Found (404)",
+            "name": "Smule",
+            "main": "smule.com",
+            "user": "https://www.smule.com/{}",
+            "user2": "https://www.smule.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "OurDjTalk":{
+            "Error": "Message",
+            "text": "The requested page could not be found.",
+            "name": "OurDjTalk",
+            "main": "ourdjtalk.com",
+            "user": "https://ourdjtalk.com/djs/{}",
+            "user2": "https://ourdjtalk.com/djs/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+        
+        "NICommunityForum":{
+            "Error": "Message",
+            "text": "The requested page could not be found.",
+            "name": "NICommunityForum",
+            "main": "native-instruments.com",
+            "user": "https://www.native-instruments.com/forum/members/{}",
+            "user2": "https://www.native-instruments.com/forum/members/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "BuzzFeed":{
+            "Error": "Status-Code",
+            "name": "BuzzFeed",
+            "main": "buzzfeed.com",
+            "user": "https://buzzfeed.com/{}",
+            "user2": "https://buzzfeed.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "House-Mixes":{
+            "Error": "Message",
+            "text": "Profile Not Found",
+            "name": "House-Mixes",
+            "main": "house-mixes.com",
+            "user": "https://www.house-mixes.com/profile/{}",
+            "user2": "https://www.house-mixes.com/profile/{}",
+            "exception": [" ","/",".","_","-"],
+            "Scrapable": "False"
+        },
+
+        "Osu!":{
+            "Error": "Status-Code",
+            "name": "Osu!",
+            "main": "osu.ppy.sh",
+            "user": "https://osu.ppy.sh/users/{}",
+            "user2": "https://osu.ppy.sh/users/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Dribble":{
+            "Error": "Message",
+            "text": "Whoops, that page is gone.",
+            "name": "Dribble",
+            "main": "dribbble.com",
+            "user": "https://dribbble.com/{}",
+            "user2": "https://dribbble.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "UrleBird":{
+            "Error": "Status-Code",
+            "name": "UrleBird",
+            "main": "urlebird.com",
+            "user": "https://urlebird.com/user/{}/",
+            "user2": "https://urlebird.com/user/{}/",
+            "exception": [" ","/"],
+            "Scrapable": "True",
+            "Scrapable_url": "https://urlebird.com/user/{}/"
+        },
+
+       "TheHandbook":{
+           "Error": "Status-Code",
+           "name": "TheHandbook",
+           "main": "thehandbook.com",
+           "user": "https://www.thehandbook.com/influencer/{}",
+           "user2": "https://www.thehandbook.com/influencer/{}",
+           "exception": [" ","/"],
+           "Scrapable": "False"
+        },
+
+        "Lookbook.nu":{
+            "Error": "Message",
+            "text": "0 People",
+            "name": "Lookbook.nu",
+            "main": "Lookbook.nu",
+            "user": "https://lookbook.nu/search/users?q={}",
+            "user2": "https://lookbook.nu/search/users?q={}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "CodeAccademy":{
+            "Error": "Message",
+            "text": "Profile Not Found | Codecademy",
+            "name": "CodeAccademy",
+            "main": "codecademy.com",
+            "user": "https://www.codecademy.com/profiles/{}",
+            "user2": "https://www.codecademy.com/profiles/{}",
+            "exception": [" ","/","_","."],
+            "Scrapable": "False"
+        },
+
+        "DevCommunity":{
+            "Error": "Status-Code",
+            "name": "DevCommunity",
+            "main": "dev.to",
+            "user": "https://dev.to/{}",
+            "user2": "https://dev.to/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "CodeWars":{
+            "Error": "Status-Code",
+            "name": "CodeWars",
+            "main": "codewars.com",
+            "user": "https://www.codewars.com/users/{}",
+            "user2": "https://www.codewars.com/users/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Drupal":{
+            "Error": "Status-Code",
+            "name": "Drupal",
+            "main": "drupal.org",
+            "user": "https://www.drupal.org/u/{}",
+            "user2": "https://www.drupal.org/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Seaport":{
+            "Error": "Status-Code",
+            "name": "Seaport",
+            "main": "forum.pixelfederation.com",
+            "user": "https://forum.pixelfederation.com/seaport/u/{}",
+            "user2": "https://forum.pixelfederation.com/seaport/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "DiggysAdventure":{
+            "Error": "Status-Code",
+            "name": "DiggysAdventure",
+            "main": "forum.pixelfederation.com",
+            "user": "https://forum.pixelfederation.com/diggysadventure/u/{}",
+            "user2": "https://forum.pixelfederation.com/diggysadventure/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Trainstation":{
+            "Error": "Status-Code",
+            "name": "Trainstation",
+            "main": "forum.pixelfederation.com",
+            "user": "https://forum.pixelfederation.com/trainstation/u/{}",
+            "user2": "https://forum.pixelfederation.com/trainstation/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Trainstation2":{
+            "Error": "Status-Code",
+            "name": "Trainstation2",
+            "main": "forum.pixelfederation.com",
+            "user": "https://forum.pixelfederation.com/trainstation2/u/{}",
+            "user2": "https://forum.pixelfederation.com/trainstation2/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Emporea":{
+            "Error": "Status-Code",
+            "name": "Emporea",
+            "main": "forum.pixelfederation.com",
+            "user": "https://forum.pixelfederation.com/emporea/u/{}",
+            "user2": "https://forum.pixelfederation.com/emporea/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "PortCity":{
+            "Error": "Status-Code",
+            "name": "PortCity",
+            "main": "forum.pixelfederation.com",
+            "user": "https://forum.pixelfederation.com/portcity/u/{}",
+            "user2": "https://forum.pixelfederation.com/portcity/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Venmo":{
+            "Error": "Status-Code",
+            "text": "Venmo | Page Not Found",
+            "name": "Venmo",
+            "main": "venmo.com",
+            "user": "https://venmo.com/{}",
+            "user2": "https://venmo.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+        
+        "ThemeForest":{
+            "Error": "Message",
+            "text": "404 - Nothing to see here",
+            "name": "ThemeForest",
+            "main": "themeforest.net",
+            "user": "https://themeforest.net/user/{}",
+            "user2": "https://themeforest.net/user/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "CbtNuggets":{
+            "Error": "Status-Code",
+            "name": "CbtNuggets",
+            "main": "cbtnuggets.com",
+            "user": "https://www.cbtnuggets.com/trainers/{}",
+            "user2": "https://www.cbtnuggets.com/trainers/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Periscope":{
+            "Error": "Message",
+            "text": "Sorry, this page doesn’t exist!",
+            "name": "Periscope",
+            "main": "pscp.tv",
+            "user": "https://www.pscp.tv/{}",
+            "user2": "https://www.pscp.tv/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "LiveStream":{
+            "Error": "Message",
+            "text": "Page Not Found (404)",
+            "name":"LiveStream",
+            "main": "livestream.com",
+            "user": "https://livestream.com/{}",
+            "user2": "https://livestream.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+        
+        "Minecraft":{
+            "Error": "Status-Code",
+            "name": "Minecraft",
+            "main": "api.mojang.com",
+            "user": "https://api.mojang.com/users/profiles/minecraft/{}",
+            "user2": "https://api.mojang.com/users/profiles/minecraft/{}",
+            "exception": [" ","/"],
+            "Scrapable": "True",
+            "Scrapable_url": "https://api.mojang.com/users/profiles/minecraft/{}"
+        },
+
+        "Ko-Fi":{
+            "Error": "Response-Url",
+            "response": "https://ko-fi.com/art?=redirect",
+            "name": "Ko-Fi",
+            "main": "ko-fi.com",
+            "user": "https://ko-fi.com/{}",
+            "user2": "https://ko-fi.com/{}",
+            "exception": [" ","/","."],
+            "Scrapable": "False"
+        },
+
+        "LeetCode":{
+            "Error": "Status-Code",
+            "name": "LeetCode",
+            "main": "leetcode.com",
+            "user": "https://leetcode.com/{}",
+            "user2": "https://leetcode.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "LinkGenie":{
+            "Error": "Status-Code",
+            "name": "LinkGenie",
+            "main": "linkgenie.co",
+            "user": "https://linkgenie.co/{}",
+            "user2": "https://linkgenie.co/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Vsco":{
+            "Error": "Status-Code",
+            "name": "Vsco",
+            "main": "vsco.co",
+            "user": "https://vsco.co/{}/gallery",
+            "user2": "https://vsco.co/{}/gallery",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Pastebin":{
+            "Error": "Status-Code",
+            "name": "Pastebin",
+            "main": "pastebin.com",
+            "user": "https://pastebin.com/u/{}",
+            "user2": "https://pastebin.com/u/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "RubyGems":{
+            "Error": "Status-Code",
+            "name": "RubyGems",
+            "main": "rubygems.org",
+            "user": "https://rubygems.org/profiles/{}",
+            "user2": "https://rubygems.org/profiles/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Asciinema":{
+            "Error": "Status-Code",
+            "name": "Asciinema",
+            "main": "asciinema.org",
+            "user": "https://asciinema.org/~{}",
+            "user2": "https://asciinema.org/~{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Milkshake":{
+            "Error": "Status-Code",
+            "name": "Milkshake",
+            "main": "milkshake.app",
+            "user": "https://msha.ke/{}",
+            "user2": "https://msha.ke/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "MyMonat":{
+            "Error": "Status-Code",
+            "name": "MyMonat",
+            "main": "mymonat.com",
+            "user": "https://{}.mymonat.com/",
+            "user2": "https://{}.mymonat.com/",
+            "exception": [" ","/",".","_"],
+            "Scrapable": "False"
+        },
+
+        "WordPress":{
+            "Error": "Message",
+            "text": "doesn&apos;t&nbsp;exist",
+            "name": "WordPress",
+            "main": "wordpress.com",
+            "user": "https://{}.wordpress.com",
+            "user2": "https://{}.wordpress.com",
+            "exception": [" ","/","_","."],
+            "Scrapable": "False"
+        },
+
+        "Gitee":{
+            "Error": "Status-Code",
+            "name": "Gitee",
+            "main": "gitee.com",
+            "user": "https://gitee.com/{}",
+            "user2": "https://gitee.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Scratch":{
+            "Error": "Status-Code",
+            "name": "Scratch",
+            "main": "scratch.mit.edu",
+            "user": "https://scratch.mit.edu/users/{}",
+            "user2": "https://scratch.mit.edu/users/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Npm":{
+            "Error": "Status-Code",
+            "name": "Npm",
+            "main": "npmjs.com",
+            "user": "https://www.npmjs.com/~{}",
+            "user2": "https://www.npmjs.com/~{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Mstdn":{
+            "Error": "Status-Code",
+            "name": "Mstdn",
+            "main": "mstdn.io",
+            "user": "https://mstdn.io/@{}",
+            "user2": "https://mstdn.io/@{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Splits.io":{
+            "Error": "Status-Code",
+            "name": "Splits.io",
+            "main": "splits.io",
+            "user": "https://splits.io/users/{}",
+            "user2": "https://splits.io/users/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Speedrun":{
+            "Error": "Status-Code",
+            "name": "Speedrun",
+            "main": "speedrun.com",
+            "user": "https://www.speedrun.com/user/{}",
+            "user2": "https://www.speedrun.com/user/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "GameSpot":{
+            "Error": "Status-Code",
+            "name": "GameSpot",
+            "main": "gamespot.com",
+            "user": "https://www.gamespot.com/profile/{}",
+            "user2": "https://www.gamespot.com/profile/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "HubPages":{
+            "Error": "Status-Code",
+            "name": "HubPages",
+            "main": "hubpages.com",
+            "user": "https://hubpages.com/@{}",
+            "user2": "https://hubpages.com/@{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Opensource":{
+            "Error": "Status-Code",
+            "name": "Opensource",
+            "main": "opensource.com",
+            "user": "https://opensource.com/users/{}",
+            "user2": "https://opensource.com/users/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "OpenStreetMap":{
+            "Error": "Status-Code",
+            "name": "OpenStreetMap",
+            "main": "openstreetmap.org",
+            "user": "https://www.openstreetmap.org/user/{}",
+            "user2": "https://www.openstreetmap.org/user/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "SlideShare":{
+            "Error": "Status-Code",
+            "name": "SlideShare",
+            "main": "slideshare.net",
+            "user": "https://slideshare.net/{}",
+            "user2": "https://slideshare.net/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "RateYourMusic":{
+            "Error": "Status-Code",
+            "name": "RateYourMusic",
+            "main": "https://rateyourmusic.com",
+            "user": "https://rateyourmusic.com/~{}",
+            "user2": "https://rateyourmusic.com/~{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "NotABug.org":{
+            "Error": "Status-Code",
+            "name": "NotABug.org",
+            "main":"notabug.org",
+            "user": "https://notabug.org/{}",
+            "user2": "https://notabug.org/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Moikrug":{
+            "Error": "Message",
+            "text": "Ошибка 404",
+            "name": "Moikrug",
+            "main": "career.habr.com",
+            "user": "https://career.habr.com/{}",
+            "user2": "https://career.habr.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "NewGrounds":{
+            "Error": "Status-Code",
+            "name": "NewGrounds",
+            "main": "newgrounds.com",
+            "user": "https://{}.newgrounds.com",
+            "user2": "https://{}.newgrounds.com",
+            "exception": [" ",".","_"],
+            "Scrapable": "False"
+        },
+
+        "Roblox":{
+            "Error": "Response-Url",
+            "response": "https://www.roblox.com/request-error?code=404",
+            "name": "Roblox",
+            "main": "roblox.com",
+            "user": "https://www.roblox.com/user.aspx?username={}",
+            "user2": "https://www.roblox.com/user.aspx?username={}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Listal":{
+            "Error": "Response-Url",
+            "response": "https://www.listal.com",
+            "name": "Listal.com",
+            "main": "listal.com",
+            "user": "https://{}.listal.com",
+            "user2": "https://{}.listal.com",
+            "exception": [" ",".","_"],
+            "Scrapable": "False"
+        },
+
+        "HackerOne":{
+            "Error": "Status-Code",
+            "name": "HackerOne",
+            "main": "hackerone.com",
+            "user": "https://hackerone.com/{}",
+            "user2": "https://hackerone.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "BugCrowd":{
+            "Error": "Status-Code",
+            "name": "BugCrowd",
+            "main": "bugcrowd.com",
+            "user": "https://bugcrowd.com/{}",
+            "user2": "https://bugcrowd.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "RaidForums":{
+            "Error": "Message",
+            "text": "The member you specified is either invalid or doesn't exist.",
+            "name": "RaidForums",
+            "main": "raidforums.com",
+            "user": "https://raidforums.com/User-{}",
+            "user2": "https://raidforums.com/User-{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Quotev":{
+            "Error": "Status-Code",
+            "name": "Quotev",
+            "main": "quotev.com",
+            "user": "https://www.quotev.com/{}",
+            "user2": "https://www.quotev.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "JoinRoll":{
+            "Error": "Response-Url",
+            "response": "https://joinroll.com",
+            "name": "JoinRoll",
+            "main": "joinroll.com",
+            "user": "https://creators.joinroll.com/{}",
+            "user2": "https://creators.joinroll.com/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Vbox7":{
+            "Error": "Message",
+            "text": "Vbox7 - Тази страница не е намерена - Vbox7",
+            "name": "Vbox7",
+            "main": "vbox7.com",
+            "user": "https://www.vbox7.com/user:{}",
+            "user2": "https://www.vbox7.com/user:{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "Bitchute":{
+            "Error": "Message",
+            "text": "404 - Page not found",
+            "name": "Bitchute",
+            "main": "bitchute.com",
+            "user": "https://www.bitchute.com/channel/{}/",
+            "user2": "https://www.bitchute.com/channel/{}/",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        },
+
+        "OpenSea":{
+            "Error": "Status-Code",
+            "name": "OpenSea",
+            "main": "opensea.io",
+            "user": "https://opensea.io/{}",
+            "user2": "https://opensea.io/{}",
+            "exception": [" ","/"],
+            "Scrapable": "False"
+        }
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        
+        "FreeLookup":{
+            "Error": "Status-Code",
+            "name": "FreeLookup",
+            "main": "free-lookup.net",
+            "url": "https://free-lookup.net/{}",
+            "url2": "https://free-lookup.net/{}",
+            "Scrapable": "False"
+        },
+
+        "WhoseNumber":{
+            "Error": "Message",
+            "text": "No comments for this phone number",
+            "name": "WhoseNumber",
+            "main": "whosenumber.info",
+            "url": "https://whosenumber.info/{}",
+            "url2": "https://whosenumber.info/{}",
+            "Scrapable": "False"
+        },
+
+        "CarteTelefonae":{
+            "Error": "Message",
+            "text": "Niciun rezultat!",
+            "name": "CarteTelefonae",
+            "main": "carte-telefoane.info",
+            "url": "https://www.carte-telefoane.info/cauta.php?nume=&x=47&y=21&judet=&telefon={}",
+            "url2": "https://www.carte-telefoane.info/cauta.php?nume=&x=47&y=21&judet=&telefon={}",
+            "Scrapable": "False"
+        }
+    }
+] 
