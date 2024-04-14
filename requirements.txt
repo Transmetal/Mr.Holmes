@@ -1,3 +1,4 @@
 phonenumbers==8.12.25
 requests==2.25.1
 beautifulsoup4==4.9.3
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
